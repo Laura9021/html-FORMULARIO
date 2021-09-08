@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scaler=1.0">
+
+  <title>Login</title>
+	</head>
+	<body>
+
+	<div>
+      <h1>Login Funcionario</h1>
+	  <p>Complete suas informações</p>
+	  <br>
+	 </div>
+
+	 <form>
+	 	<fieldset>
+
+	 	 	<div>
+	 	 		<label>Nome Completo</label>
+	 	 		<input type="text" name="nome" id="nome">
+	 	 	</div>
+
+	 	 	<div>
+	 	 		<label>Cargo</label>
+	 	 		<input type="text" name="Sobrenome" id="sobrenome">
+	 	 	</div>
+
+	 	    <div>
+	 	    	<label>Email</label>
+	 	    	<input type="email" nome="email" id="email">
+	 	    </div>
+	 	    <div>
+	 	    	<label>CPF</label>
+	 	    	<input type="text" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" title="Digite um CPF no formato: xxx.xxx.xxx-xx">
+	 	    </div>
+	 	    <div>
+
+	 	    	<label>Sexo</label><br>
+
+	 	    	<input type="radio" id="Feminino" name="Sexo" value="Feminino">
+	 	    	<label for="Feminino">Feminino</label><br>
+	 	    	
+	 	    	<input type="radio" id="Masculino" name="Sexo" value="Masculino">
+	 			<label for="Masculino">Masculino</label><br>
+
+	 			<input type="radio" id="Outro" name="Sexo" value="Outro">
+ 			    <label for="Outro">Outro</label><br>
+ 			   
+	 	    </div>
+	 	</fieldset>
+	 </form>
+	</body>
+	</html>
